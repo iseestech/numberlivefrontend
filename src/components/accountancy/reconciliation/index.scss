@@ -1,0 +1,193 @@
+.transaction-item {
+  // min-height: 110px;
+  border: 1px solid #d5d5d5;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #f2f2f2;
+  border-radius: 3px !important;
+
+  .leftSideContent,
+  .rightSideContent {
+    background: #f6f6f6;
+    // background-color: #fff;
+    border: 1px solid #d5d5d5;
+
+    // margin-bottom: 15px;
+    .date-section,
+    .amount-section {
+      border-right: 1px solid #d5d5d5;
+    }
+
+    // .leftside-item {
+    //   min-height: 100px;
+    // }
+    .match-rightSide-item {
+      // min-height: 50px;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .create-rightSide-item {
+      // min-height: 50px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .rightSideContent {
+    .ant-tabs-bar {
+      margin: 0;
+    }
+  }
+
+  .okText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      //   border: 1px solid #ccc;
+      //   padding: 10px;
+    }
+  }
+
+  .transactionList {
+    background-color: #fff;
+    // padding: 15px;
+  }
+}
+
+.purchaseOrderBanking {
+  width: 80% !important;
+}
+
+.otherIncomeModal {
+  width: 60% !important;
+}
+
+.transaction-item1 {
+  .leftSideContent {
+    background: #f6f6f6;
+    border-radius: 3px !important;
+  }
+}
+
+.reconcile__form--layout {
+  padding: 15px;
+  box-shadow: -1px 0 10px 2px #ccc;
+  background: #fff;
+
+  .leftside-item {
+    align-items: center;
+    padding: 5px 10px;
+  }
+
+  .transactionList {
+    .not-active,
+    .active {
+      border: 1px solid #d5d5d5;
+      padding: 15px 0;
+      margin-bottom: 15px;
+      border-radius: 3px !important;
+    }
+  }
+
+  .reConform__table--field {
+    .ant-table {
+      border-top: 1px solid #d5d5d5;
+      // border-bottom: 1px solid #d5d5d5;
+
+      table {
+        thead tr th {
+          // background-color: $white !important;
+          text-transform: uppercase !important;
+          font-size: 13px !important;
+          font-weight: bold;
+          // background: #fffafa !important;
+          background: #f3f3f3 !important;
+          // border-top: 1px solid #D5D5D5;
+          border-bottom: 1px solid #d5d5d5;
+          border-radius: 3px 3px 0 0;
+          padding: 10px !important;
+
+          // &:first-child {
+          //   text-align: center;
+          // }
+        }
+
+        tbody tr td {
+          padding: 10px !important;
+
+          // &:first-child {
+          //   text-align: center;
+          // }
+        }
+      }
+
+      .ant-table-footer {
+        padding: 10px;
+        text-align: right;
+      }
+
+      .table__td {
+        vertical-align: top;
+      }
+
+      .ant-table-cell.ant-table-selection-column {
+        text-align: left;
+        padding-left: 10px !important;
+      }
+    }
+  }
+
+  .rightSideContent {
+    .create-rightSide-item .right__button {
+      padding: 5px 10px;
+      background: #f6f6f6;
+      justify-content: space-between;
+      display: flex;
+      // padding-right: 4px;
+    }
+  }
+
+  .rightBorder {
+    border-right: 4px solid #b24232;
+    border-left: 4px solid #f6f6f6;
+
+    .createBtn {
+      color: #b24232;
+    }
+
+    .matchBtn {
+      color: inherit;
+    }
+  }
+
+  .leftBorder {
+    border-left: 4px solid #b24232;
+    border-right: 4px solid #f6f6f6;
+
+    .createBtn {
+      color: inherit;
+    }
+
+    .matchBtn {
+      color: #b24232;
+    }
+  }
+
+  .matched__section {
+    border-top: 1px solid #d5d5d5;
+  }
+}
+
+.formModal {
+  .form__header--css {
+    display: none;
+  }
+
+  .form__content--css {
+    box-shadow: none;
+  }
+}
+

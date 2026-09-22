@@ -1,0 +1,48 @@
+{
+    "tableData": [
+      {
+        "id": "1",
+        "currancyName": "Damon",
+        "currancySymbol": "Pune",
+        "position": "5516 Adolfo Green",
+        "email":"demo@gmail.com",
+        "currancyCode":"1234567",
+        "note": "demo",
+        "created_by":"demo",
+        "actions":"Edit | Delete"
+      },
+      {
+        "id": "2",
+        "currancyName": "Damon",
+        "currancySymbol": "Pune",
+        "position": "5516 Adolfo Green",
+        "email":"demo@gmail.com",
+        "currancyCode":"1234567",
+        "note": "demo",
+        "created_by":"demo",
+        "actions":"Edit | Delete"
+      },
+      {
+        "id": "3",
+        "currancyName": "Damon",
+        "currancySymbol": "Pune",
+        "position": "5516 Adolfo Green",
+        "email":"demo@gmail.com",
+        "currancyCode":"1234567",
+        "note": "demo",
+        "created_by":"demo",
+        "actions":"Edit | Delete"
+      },
+      {
+        "id": "4",
+        "currancyName": "Damon",
+        "currancySymbol": "Pune",
+        "position": "5516 Adolfo Green",
+        "email":"demo@gmail.com",
+        "currancyCode":"1234567",
+        "note": "demo",
+        "created_by":"demo",
+        "actions":"Edit | Delete"
+      }
+    ]
+  }

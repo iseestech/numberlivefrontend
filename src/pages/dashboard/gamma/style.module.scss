@@ -1,0 +1,72 @@
+@use '../../../styles/variables.scss' as *;
+@use '../../../styles/_functions.scss' as *;
+
+.chartPieExample {
+  :global(.ct-chart) {
+    height: rem(200);
+  }
+
+  :global(.ct-series-a) path {
+    stroke: $success;
+  }
+
+  :global(.ct-series-b) path {
+    stroke: $primary;
+  }
+
+  :global(.ct-series-c) path {
+    stroke: $danger;
+  }
+
+  :global(.ct-series) path {
+    transition: stroke-opacity 0.2s ease-in-out;
+    &:hover {
+      stroke-opacity: 0.8;
+    }
+  }
+}
+
+#table__layout--css,
+#adv_payment_table {
+  .ant-table-container {
+    box-shadow: -1px 0 10px 2px #ccc;
+
+    table {
+      thead tr th {
+        // background-color: $white !important;
+        text-transform: uppercase !important;
+        font-size: 13px !important;
+        font-weight: bold;
+
+        &:first-child {
+          text-align: center;
+        }
+      }
+
+      tbody tr td {
+        padding: 10px !important;
+
+        &:first-child {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .deleteIcon {
+    color: #e65555;
+  }
+
+  .editIcon {
+    color: #0081ff;
+  }
+
+  .viewIcon {
+    color: #000;
+  }
+
+  .actionCol,
+  .srCol {
+    text-align: center;
+  }
+}

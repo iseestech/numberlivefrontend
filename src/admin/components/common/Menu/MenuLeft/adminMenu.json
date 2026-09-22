@@ -1,0 +1,39 @@
+{
+  "menus":[
+      {
+        "category": true,
+        "title": "Organization"
+      },
+      {
+        "title": "Dashboard",
+        "key": "adminDashboard",
+        "icon": "fe fe-home",
+        "url": "/admin/dashboard"
+      },
+      {
+        "title": "Organization",
+        "key": "adminOrganization",
+        "icon": "fa fa-building-o",
+        "url": "/admin/organizations"
+      },
+      {
+        "title": "Users",
+        "key": "adinUsers",
+        "icon": "fa fa-users",
+        "url": "/admin/users"
+      },
+      {
+        "title": "SubPlans",
+        "key": "adminSubPlans",
+        "icon": "fa-solid fa-book",
+        "url": "/admin/subPlans"
+      },
+      {
+        "title": "Notifications",
+        "key": "adminNotifications",
+        "icon": "fa-light fa-chart-line",
+        "url": "/admin/notifications"
+      }
+
+  ]
+}

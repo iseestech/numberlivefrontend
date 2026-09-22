@@ -1,0 +1,39 @@
+body {
+  overflow-x: hidden;
+}
+
+.sub-header__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.report__section {
+  .top__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.purchaseOrderBanking {
+  width: 80% !important;
+}
+
+.transferToFrom {
+  width: 30% !important;
+}
+
+.formModal {
+  .form__header--css {
+    display: none;
+  }
+
+  .form__content--css {
+    box-shadow: none;
+  }
+}
+
+.otherIncomeModal {
+  width: 60% !important;
+}
+

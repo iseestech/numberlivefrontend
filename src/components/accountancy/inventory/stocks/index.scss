@@ -1,0 +1,79 @@
+.row-dragging {
+  background: #fafafa;
+  border: 1px solid #ccc;
+}
+
+.row-dragging td {
+  padding: 16px;
+  visibility: hidden;
+}
+
+.row-dragging .drag-visible {
+  visibility: visible;
+}
+
+.actionCol {
+  width: 7%;
+}
+
+.customerModal {
+  .kit__utils__heading {
+    display: none;
+  }
+}
+
+.ant-row.ant-form-item {
+  margin-bottom: 5px;
+}
+
+.showHideDes::after {
+  animation: none !important;
+}
+
+.cui__utils__content {
+  padding-top: 1rem;
+}
+
+.ant-table-content {
+  overflow: auto !important;
+}
+
+// table css
+// .ant-table {
+//   display: block;
+
+//   @media screen and (max-width: 600px) {
+//     &-thead {
+//       display: none;
+//     }
+
+//     &-thead>tr,
+//     &-tbody>tr {
+
+//       th,
+//       td {
+//         &:first-of-type {
+//           padding-top: 1rem;
+//         }
+
+//         &:last-of-type {
+//           padding-bottom: 1rem;
+//         }
+//       }
+
+//       >th,
+//       >td {
+//         display: block;
+//         width: auto !important;
+//         border: none;
+//         padding: 0 1rem;
+//         font-size: 1.1rem;
+
+//         &:last-child {
+//           border-bottom: 1px solid #eee;
+//         }
+//       }
+//     }
+//   }
+// }
+

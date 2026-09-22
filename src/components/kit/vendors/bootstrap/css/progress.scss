@@ -1,0 +1,12 @@
+@use '../../../../../styles/variables.scss' as *;
+@use '../../../../../styles/_functions.scss' as *;
+
+/////////////////////////////////////////////////////////////////////////////////////////
+/* PROGRESS */
+
+// dark theme
+[data-kit-theme='dark'] {
+  .progress {
+    background: $dark-gray-4;
+  }
+}

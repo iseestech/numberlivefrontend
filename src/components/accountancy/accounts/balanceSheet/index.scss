@@ -1,0 +1,84 @@
+body {
+  overflow-x: hidden;
+}
+
+.sub-header__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.report__section {
+  .top__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.balancesheet-section {
+  border: 1px solid #ccc;
+  // padding: 15px;
+  .header-section {
+    border-bottom: 1px solid #ccc;
+    // padding: 10px;
+  }
+  .leftHeader {
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background: #f2f4f8;
+  }
+  .rightHeader {
+    padding: 10px;
+    text-align: center;
+    background: #f2f4f8;
+  }
+  .left-section {
+    border-right: 1px solid #ccc;
+  }
+  // .footer-section {
+  //   border: 1px solid #ccc;
+  //   border-top: 0px;
+  // }
+  .bg-none {
+    background: none !important;
+    border-bottom: 2px solid #ccc;
+  }
+  .left-body-section {
+    // border-right: 1px solid #ccc;
+    padding: 10px;
+    // .account-row {
+    //   border-bottom: 1px solid #ccc;
+    //   margin-bottom: 2px;
+    //   padding-bottom: 2px;
+    // }
+  }
+  .right-body-section {
+    padding: 10px;
+    // .account-row {
+    //   border-bottom: 1px solid #ccc;
+    //   margin-bottom: 2px;
+    //   padding-bottom: 2px;
+    // }
+  }
+  .footer-section {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+
+    // padding: 10px;
+    .leftFooter {
+      // border-right: 1px solid #ccc;
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      // text-align: center;
+    }
+    .rightFooter {
+      padding: 10px 0;
+      // text-align: center;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+

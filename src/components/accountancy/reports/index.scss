@@ -1,0 +1,51 @@
+img,
+video,
+button {
+  display: block;
+}
+
+#report--details {
+  .top__section {
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin: 0 auto;
+  }
+
+  .page-header {
+    padding: 45px 15px 60px 15px;
+
+    .reports-headerspacing,
+    h5 {
+      text-transform: capitalize;
+    }
+  }
+
+  .ant-table-thead {
+    .ant-table-cell {
+      text-transform: uppercase;
+      font-weight: 600;
+      // font-size: 12px;
+    }
+  }
+
+  .ant-table-row {
+    .ant-table-cell {
+      text-transform: capitalize;
+      // font-size: 13px;
+    }
+  }
+}
+
+.statementByDateTable {
+  .ant-table-tbody > tr:nth-child(even) > td {
+    border-bottom: 0 !important;
+  }
+}
+
+.statementOfAccount {
+  .ant-table-summary {
+    position: sticky !important;
+    bottom: 0 !important;
+  }
+}
+

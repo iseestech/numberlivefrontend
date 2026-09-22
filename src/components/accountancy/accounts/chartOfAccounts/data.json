@@ -1,0 +1,40 @@
+{
+    "tableData": [
+      {
+        "key": "1",
+        "isLock": "true",
+        "accountName":"Test",
+        "accountCode":"123",
+        "accountType":"stuff",
+        "documents":"",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "2",
+        "isLock": "true",
+        "accountName":"demo",
+        "accountCode":"678",
+        "accountType":"stuff 2",
+        "documents":"",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "3",
+        "isLock": "true",
+        "accountName":"testing",
+        "accountCode":"6786",
+        "accountType":"stuff 2",
+        "documents":"",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "4",
+        "isLock": "false",
+        "accountName":"demo 123",
+        "accountCode":"678",
+        "accountType":"stuff 2",
+        "documents":"",
+        "actions":"Edit | Delete"
+      }
+    ]
+  }

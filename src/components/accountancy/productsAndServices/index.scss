@@ -1,0 +1,19 @@
+.ant-modal-wrap {
+  z-index: 1050 !important;
+}
+.ant-modal {
+  // width: 700px !important;
+  top: 40px !important;
+}
+
+// .card,
+// .card-body {
+//   border: 0 !important;
+//   padding: 0 !important;
+// }
+.createProductModal {
+  .ant-row.ant-form-item {
+    margin-bottom: 5px;
+  }
+}
+

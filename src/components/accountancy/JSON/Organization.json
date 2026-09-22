@@ -1,0 +1,46 @@
+{
+    "org": [
+        {
+            "title": "#",
+            "dataIndex": "key",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "OrgCode",
+            "dataIndex": "orgCode",
+            "key": "orgCode",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Org Name",
+            "dataIndex": "orgName",
+            "key": "orgName",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Plan",
+            "dataIndex": "subcrPlan",
+            "key": "subcrPlan",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Industry",
+            "dataIndex": "industry",
+            "key": "industry",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Location",
+            "dataIndex": "businessLocation",
+            "key": "businessLocation",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Finacial Year",
+            "dataIndex": "lastFinYear",
+            "key": "lastFinYear",
+            "filter": "agTextColumnFilter"
+        }
+    ]
+}

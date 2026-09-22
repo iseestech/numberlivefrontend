@@ -1,0 +1,18 @@
+body {
+  overflow-x: hidden;
+}
+
+.tableForm {
+  .ant-row.ant-form-item {
+    margin-bottom: 0;
+  }
+}
+
+.createForm {
+  .ant-table-cell {
+    padding: 5px !important;
+    min-height: 56px !important;
+    vertical-align: baseline;
+  }
+}
+

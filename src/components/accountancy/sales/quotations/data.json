@@ -1,0 +1,69 @@
+{
+    "tableData": [ 
+      {
+        "key": "1",
+        "order_date": "24/06/2020",
+        "order_name": "Damon",
+        "customer_fname": "Adolfo",
+        "reference":"demo@gmail.com",
+        "quoteNumber":"1234567",
+        "note": "demo",
+        "start_date":"27/8/2020",
+        "created_by":"demo",
+        "status": "draft",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "2",
+        "order_date": "25/06/2020",
+        "order_name": "Damon",
+        "customer_fname": "Adolfo",
+        "reference":"demo@gmail.com",
+        "quoteNumber":"1234567",
+        "note": "demo",
+        "start_date":"28/8/2020",
+        "created_by":"demo",
+        "status": "sent",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "3",
+        "order_date": "26/06/2020",
+        "order_name": "Damon",
+        "customer_fname": "Adolfo",
+        "reference":"demo@gmail.com",
+        "quoteNumber":"1234567",
+        "note": "demo",
+        "start_date":"29/8/2020",
+        "created_by":"demo",
+        "status": "declined",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "4",
+        "order_date": "27/06/2020",
+        "order_name": "Damon",
+        "customer_fname": "Adolfo",
+        "reference":"demo@gmail.com",
+        "quoteNumber":"1234567",
+        "note": "demo",
+        "start_date":"29/8/2020",
+        "created_by":"demo",
+        "status": "accepted",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "4",
+        "order_date": "27/06/2020",
+        "order_name": "Damon",
+        "customer_fname": "Adolfo",
+        "reference":"demo@gmail.com",
+        "quoteNumber":"1234567",
+        "note": "demo",
+        "start_date":"29/8/2020",
+        "created_by":"demo",
+        "status": "invoiced",
+        "actions":"Edit | Delete"
+      }
+    ]
+  }

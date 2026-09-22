@@ -1,0 +1,25 @@
+// Import mixins
+////////@use '../../../../../mixins.scss' as *;
+@use '../../../../../styles/_variables.scss' as *;
+@use '../../../../../styles/_functions.scss' as *;
+.ant-notification {
+  max-width: calc(100vw - 48px);
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////
+// DARK THEME STYLES
+[data-kit-theme='dark'] {
+  .ant-notification {
+    &-notice-message {
+      // color: $white;
+    }
+    &-close-icon {
+      svg {
+        fill: $white;
+      }
+    }
+  }
+}
+
+
+

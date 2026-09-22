@@ -1,0 +1,2 @@
+id,vendorId,vendor_firstname,vendor_lastname,vendor_email_address,reference,estimateDate,expiryDate,purchasePerson,purchaseNumber,currency,title,description,amount,sub_total,total,terms,status,product_id,accepted,openingBalance,paymentStatus,invoiceNo,invoiceDueAmount
+0,2,Nik,Raj,nik@gmail.com,1,20/05/2021,21/06/2021,xyz,123,0,Test,test,5000,20000,22000,yes,OPEN,1,DRAFT,1000,DRAFT,1234,500

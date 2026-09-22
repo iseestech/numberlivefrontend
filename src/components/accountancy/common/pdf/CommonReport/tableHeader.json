@@ -1,0 +1,1521 @@
+{
+  "ProductList": [
+    {
+      "name": "ProductCode",
+      "value": "product_code"
+    },
+    {
+      "name": "Name",
+      "value": "name"
+    },
+    {
+      "name": "Purchase Rate",
+      "value": "purchase_unit_price"
+    },
+    {
+      "name": "Sale Rate",
+      "value": "sale_unit_price"
+    },
+    {
+      "name": "Opening Stock",
+      "value": "quantity"
+    }
+  ],
+  "PurchaseOrderListReport": [
+    {
+      "name": "Purchase No#",
+      "value": "purchase_order_no"
+    },
+    {
+      "name": "Reference",
+      "value": "reference"
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendorName"
+    },
+    {
+      "name": "Order Date",
+      "value": "poDate"
+    },
+    {
+      "name": "Amount",
+      "value": "amount"
+    }
+  ],
+  "SalesQuoteList": [
+    {
+      "name": "Quote#",
+      "value": "quote_number"
+    },
+    {
+      "name": "Customer",
+      "value": "customername"
+    },
+    {
+      "name": "Date",
+      "value": "estimateDate"
+    },
+    {
+      "name": "Expiry",
+      "value": "expiry_date"
+    },
+    {
+      "name": "Amount",
+      "value": "total"
+    }
+  ],
+  "SalesOrderList": [
+    {
+      "name": "Order#",
+      "value": "orderno"
+    },
+    {
+      "name": "Customer",
+      "value": "customername"
+    },
+    {
+      "name": "Date",
+      "value": "estimateDate"
+    },
+    {
+      "name": "Expiry",
+      "value": "expirydate"
+    },
+    {
+      "name": "Amount",
+      "value": "total"
+    }
+  ],
+  "PurchaseInvoiceListReport": [
+    {
+      "name": "Bill No",
+      "value": "purchaseNumber",
+      "css": {
+        "width": "28%"
+      }
+    },
+    {
+      "name": "Invoice No",
+      "value": "invoice_no",
+      "css": {
+        "width": "28%"
+      }
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name",
+      "css": {
+        "width": "28%"
+      }
+    },
+    {
+      "name": "Purchase Date",
+      "value": "purchaseDate",
+      "css": {
+        "width": "28%"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "total",
+      "css": {
+        "width": "28%"
+      }
+    }
+  ],
+  "ExpenseDetails": [
+    {
+      "name": "Date",
+      "value": "date"
+    },
+    {
+      "name": "Expense No",
+      "value": "expense_no"
+    },
+    {
+      "name": "Payment Mode",
+      "value": "payment_mode"
+    },
+    {
+      "name": "Amount",
+      "value": "total"
+    }
+  ],
+  "CreditNotes": [
+    {
+      "name": "Date",
+      "value": "sale_return_date"
+    },
+    {
+      "name": "Customer Name",
+      "value": "vendor_name"
+    },
+    {
+      "name": "Sale Return No",
+      "value": "sale_return_no"
+    },
+    {
+      "name": "Amount",
+      "value": "amount"
+    }
+  ],
+  "DebitNotes": [
+    {
+      "name": "Date",
+      "value": "pur_return_date"
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name"
+    },
+    {
+      "name": "Purchase Return No",
+      "value": "purchase_return_no"
+    },
+    {
+      "name": "Amount",
+      "value": "amount"
+    }
+  ],
+  "PaymentReceived": [
+    {
+      "name": "Date",
+      "value": "payment_date"
+    },
+    {
+      "name": "Customer Name",
+      "value": "customer_name"
+    },
+    {
+      "name": "Payment No",
+      "value": "payment_no"
+    },
+    {
+      "name": "Account Name",
+      "value": "act_name"
+    },
+    {
+      "name": "Payment Mode",
+      "value": "payment_mode"
+    },
+    {
+      "name": "Received Amount",
+      "value": "amount_recieved"
+    }
+  ],
+  "ExpenseCategory": [
+    {
+      "name": "Expense Account",
+      "value": "expenses_act"
+    },
+    {
+      "name": "Total Expense",
+      "value": "totalexpense"
+    }
+  ],
+  "PurchaseItems": [
+    {
+      "name": "Product Name",
+      "value": "product_name"
+    },
+    {
+      "name": "Buy Quantity",
+      "value": "buy_qty"
+    },
+    {
+      "name": "Average Price",
+      "value": "average_price"
+    },
+    {
+      "name": "Amount",
+      "value": "Amount"
+    }
+  ],
+  "PurchaseVendor": [
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name"
+    },
+    {
+      "name": "Invoice Count",
+      "value": "invoice_count"
+    },
+    {
+      "name": "Total Purchase",
+      "value": "total_purchase"
+    },
+    {
+      "name": "Purchase Without Tax",
+      "value": "total_without_tax"
+    }
+  ],
+  "ChartOfAccounts": [
+    {
+      "name": "Account #",
+      "value": "id"
+    },
+    {
+      "name": "Name",
+      "value": "actName"
+    },
+    {
+      "name": "Group",
+      "value": "accSubGroupname"
+    },
+    {
+      "name": "Primary Account",
+      "value": "accGroupName"
+    },
+    {
+      "name": "Description",
+      "value": "discription"
+    }
+  ],
+  "PurchaseOrderDetails": [
+    {
+      "name": "Product #",
+      "value": "product_code",
+      "css": {
+        "paddingTop": 5,
+        "width": "17%"
+      }
+    },
+    {
+      "name": "Product Name",
+      "value": "name",
+      "css": {
+        "paddingTop": 5,
+        "width": "25%"
+      }
+    },
+    {
+      "name": "Quantity",
+      "value": "purchase_qty",
+      "css": {
+        "paddingTop": 5,
+        "width": "15%"
+      }
+    },
+    {
+      "name": "Unit Price",
+      "value": "purchase_unit_price",
+      "css": {
+        "paddingTop": 5,
+        "width": "12%"
+      }
+    },
+    {
+      "name": "Discount (%)",
+      "value": "purchaseDiscountPercent",
+      "css": {
+        "paddingTop": 5,
+        "width": "15%"
+      }
+    },
+    {
+      "name": "Tax rate",
+      "value": "purchase_tax_rate",
+      "css": {
+        "paddingTop": 5,
+        "width": "15%"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "purchase_amount",
+      "css": {
+        "paddingTop": 5,
+        "width": "15%"
+      }
+    }
+  ],
+  "PurchasePaymentDetails": [
+    {
+      "name": "Invoice Date",
+      "value": "estimate_date",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Invoice Number",
+      "value": "invoice_no",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Invoice Amount",
+      "value": "total",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Amount Due",
+      "value": "invoice_due_amount",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Payment",
+      "value": "paidAmount",
+      "css": {
+        "width": "20%"
+      }
+    }
+  ],
+  "SalesPaymentDetails": [
+    {
+      "name": "Invoice Date",
+      "value": "invoiceDate",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Invoice Number",
+      "value": "invoice_no",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Invoice Amount",
+      "value": "invoiceAmount",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Amount Due",
+      "value": "invoice_due_amount",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Payment",
+      "value": "salePayment",
+      "css": {
+        "width": "20%"
+      }
+    }
+  ],
+  "PurchasePaymentList": [
+    {
+      "name": "Payment #",
+      "value": "paymentno",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendorname",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Payment Date",
+      "value": "paymentdate",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Amount Paid",
+      "value": "amountpaid",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Due Date",
+      "value": "due_amount",
+      "css": {
+        "width": "20%"
+      }
+    }
+  ],
+  "VendorPaymentList": [
+    {
+      "name": "Payment #",
+      "value": "paymentNo",
+      "css": {
+        "width": "25%"
+      }
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendorName",
+      "css": {
+        "width": "35%"
+      }
+    },
+    {
+      "name": "Payment Date",
+      "value": "paymentDate",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Amount Paid",
+      "value": "amountPaid",
+      "css": {
+        "width": "25%"
+      }
+    }
+  ],
+  "PurchaseReturnList": [
+    {
+      "name": "Return#",
+      "value": "purchasereturnno",
+      "css": {
+        "width": "31.3333333333%"
+      }
+    },
+    {
+      "name": "Date",
+      "value": "purchasereturndate",
+      "css": {
+        "width": "31.333333333%"
+      }
+    },
+    {
+      "name": "Purchase Value",
+      "value": "amount",
+      "css": {
+        "width": "31.3333333333%"
+      }
+    }
+  ],
+  "SalesReturn": [
+    {
+      "name": "Return#",
+      "value": "id"
+    },
+    {
+      "name": "Product#",
+      "value": "product_id"
+    },
+    {
+      "name": "Customer#",
+      "value": "customerId"
+    },
+    {
+      "name": "Return Quantity",
+      "value": "saleReturnQty"
+    },
+    {
+      "name": "Return Value",
+      "value": "saleReturnValue"
+    }
+  ],
+  "SalesPayments": [
+    {
+      "name": "Payment#",
+      "value": "id"
+    },
+    {
+      "name": "Reference#",
+      "value": "reference"
+    },
+    {
+      "name": "Customer Name",
+      "value": "customer_name"
+    },
+    {
+      "name": "Payment Date",
+      "value": "payment_date"
+    },
+    {
+      "name": "Amount",
+      "value": "amount_received"
+    }
+  ],
+  "Stock": [
+    {
+      "name": "Stock#",
+      "value": "id",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Product Name",
+      "value": "item_name",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Opening Stock",
+      "value": "opening_stock",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Purchase",
+      "value": "pqty",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Purchase Return",
+      "value": "rqty",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Sales",
+      "value": "sqty",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Sales Return",
+      "value": "srqty",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Adjusted Qty",
+      "value": "adjusted_qty",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Closing Stock",
+      "value": "closing_stock",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "InventoryAdjustment": [
+    {
+      "name": "Mode of adjustment",
+      "value": "modeOfAdjustment",
+      "css": {
+        "width": "23.75%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Date",
+      "value": "date",
+      "css": {
+        "width": "23.75%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Reference",
+      "value": "referenceNumber",
+      "css": {
+        "width": "23.75%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Discription",
+      "value": "discription",
+      "css": {
+        "width": "23.75%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "Expense": [
+    {
+      "name": "Date",
+      "value": "date",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Expense Account",
+      "value": "expAccount",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendorName",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Paid Through",
+      "value": "paidThrough",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Customer Name",
+      "value": "customerName",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Status",
+      "value": "status",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "amount",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "CustomerBalance": [
+    {
+      "name": "Customer Name",
+      "value": "customername",
+      "css": {
+        "width": "27%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Received Amount",
+      "value": "received_amt",
+      "css": {
+        "width": "27%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Total Sale",
+      "value": "total_sale",
+      "css": {
+        "width": "27%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Balance",
+      "value": "balance",
+      "css": {
+        "width": "27%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "SalesByCustomerDetails": [
+    {
+      "name": "Estimate Date",
+      "value": "estimate_date",
+      "css": {
+        "width": "30%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Invoice No",
+      "value": "invoice_no",
+      "css": {
+        "width": "30%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "total",
+      "css": {
+        "width": "30%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "BankList": [
+    {
+      "name": "Account Type",
+      "value": "accountType",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Account Name",
+      "value": "actname",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Account Code",
+      "value": "accountCode",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Bank Name",
+      "value": "bankName",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Description",
+      "value": "description",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "Company": [
+    {
+      "name": "Org#",
+      "value": "id",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "OrgCode",
+      "value": "orgCode",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Org Name",
+      "value": "orgName",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Plan",
+      "value": "subcrPlan",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Industry",
+      "value": "industry",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Location",
+      "value": "businessLocation",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Finacial Year",
+      "value": "lastFinYear",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "Journal": [
+    {
+      "name": "Date",
+      "value": "journelDate",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Journal#",
+      "value": "journelNo",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Currency",
+      "value": "currency",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Notes",
+      "value": "notes",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Credit",
+      "value": "creditTotal",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Debit",
+      "value": "debitTotal",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "JournalReceipt": [
+    {
+      "name": "Account",
+      "value": "accountName",
+      "css": {
+        "width": "25%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Description",
+      "value": "description",
+      "css": {
+        "width": "25%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Debit",
+      "value": "debit",
+      "css": {
+        "width": "25%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Credit",
+      "value": "credit",
+      "css": {
+        "width": "25%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "InvoiceList": [
+    {
+      "name": "Bill No",
+      "value": "purchaseNumber"
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name"
+    },
+    {
+      "name": "Purchase Date",
+      "value": "purchaseDate"
+    },
+    {
+      "name": "Amount",
+      "value": "total"
+    },
+    {
+      "name": "Status",
+      "value": "payment_status"
+    }
+  ],
+  "SalesByItems": [
+    {
+      "name": "Product Name",
+      "value": "product_name",
+      "css": {
+        "width": "25%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Sold Quantity",
+      "value": "sold_qty",
+      "css": {
+        "width": "25%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Average Price",
+      "value": "average_price",
+      "css": {
+        "width": "25%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "Amount",
+      "css": {
+        "width": "25%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "PayableSummary": [
+    {
+      "name": "Date",
+      "value": "Purchase_Date"
+    },
+    {
+      "name": "Invoice No",
+      "value": "invoice_no"
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name"
+    },
+    {
+      "name": "Payment Status",
+      "value": "payment_status"
+    },
+    {
+      "name": "Balance Amount",
+      "value": "balance_amt"
+    },
+    {
+      "name": "Total Without Tax",
+      "value": "total_amt_without_tax"
+    },
+    {
+      "name": "Bill Amount",
+      "value": "bill_amt"
+    }
+  ],
+  "PurchaseOrderVendor": [
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name"
+    },
+    {
+      "name": "Order Count",
+      "value": "order_count"
+    },
+    {
+      "name": "Total Amount",
+      "value": "total_amount"
+    }
+  ],
+  "PurchaseDetails": [
+    {
+      "name": "Date",
+      "value": "poDate"
+    },
+    {
+      "name": "Vendor Name",
+      "value": "VendorName"
+    },
+    {
+      "name": "Purchase Order No",
+      "value": "purchase_order_no"
+    },
+    {
+      "name": "Status",
+      "value": "accept_status"
+    },
+    {
+      "name": "Amount",
+      "value": "amount"
+    }
+  ],
+  "PaymentMade": [
+    {
+      "name": "Date",
+      "value": "payment_date"
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name"
+    },
+    {
+      "name": "Payment No",
+      "value": "payment_no"
+    },
+    {
+      "name": "Payment Mode",
+      "value": "payment_mode"
+    },
+    {
+      "name": "Paid Amount",
+      "value": "amount_paid"
+    }
+  ],
+  "VendorCredit": [
+    {
+      "name": "Date",
+      "value": "pur_return_date"
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name"
+    },
+    {
+      "name": "Purchase Return No",
+      "value": "purchase_return_no"
+    },
+    {
+      "name": "Amount",
+      "value": "amount"
+    }
+  ],
+  "CustomerDetails": [
+    {
+      "name": "Invoice No",
+      "value": "invoice_no"
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name"
+    },
+    {
+      "name": "Payment Status",
+      "value": "payment_status"
+    },
+    {
+      "name": "Bill Amount",
+      "value": "bill_amount"
+    },
+    {
+      "name": "Balance Amount",
+      "value": "balance_amount"
+    }
+  ],
+  "VendorBalance": [
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name"
+    },
+    {
+      "name": "Paid Amount",
+      "value": "paid_amt"
+    },
+    {
+      "name": "Total Purchase",
+      "value": "total_purchase"
+    },
+    {
+      "name": "Balance",
+      "value": "balance"
+    }
+  ],
+  "RecievableSummary": [
+    {
+      "name": "Date",
+      "value": "estimate_date",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Invoice No",
+      "value": "invoice_no",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Customer Name",
+      "value": "customername",
+      "css": {
+        "width": "30%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Payment Status",
+      "value": "payment_status",
+      "css": {
+        "width": "30%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Due Amount",
+      "value": "invoice_due_amount",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Total Without Tax",
+      "value": "total_amt_without_tax",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Total",
+      "value": "total",
+      "css": {
+        "width": "20%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "CutomerDetails": [
+    {
+      "name": "Date",
+      "value": "estimate_date"
+    },
+    {
+      "name": "Invoice No",
+      "value": "invoice_no"
+    },
+    {
+      "name": "Invoice Due Amt",
+      "value": "invoice_due_amount"
+    },
+    {
+      "name": "Total Amt without Tax",
+      "value": "total_amt_without_tax"
+    },
+    {
+      "name": "Payment Status",
+      "value": "payment_status"
+    },
+    {
+      "name": "Status",
+      "value": "status"
+    },
+    {
+      "name": "Total",
+      "value": "total"
+    }
+  ],
+  "DatewiseInventory": [
+    {
+      "name": "Product Name",
+      "value": "item_name"
+    },
+    {
+      "name": "Purchase",
+      "value": "Purchase"
+    },
+    {
+      "name": "Purchase Return",
+      "value": "Purchase_Return"
+    },
+    {
+      "name": "Sale",
+      "value": "Sale"
+    },
+    {
+      "name": "Sate Return",
+      "value": "Sale_Return"
+    },
+    {
+      "name": "Opening Value",
+      "value": "openingvalue"
+    },
+    {
+      "name": "Closing Value",
+      "value": "closingvalue"
+    }
+  ],
+  "SalesQuotation": [
+    {
+      "name": "Quote#",
+      "value": "quote_number"
+    },
+    {
+      "name": "Customer",
+      "value": "customername"
+    },
+    {
+      "name": "Date",
+      "value": "estimate_date"
+    },
+    {
+      "name": "Expiry",
+      "value": "expiry_date"
+    },
+    {
+      "name": "Status",
+      "value": "accept_status"
+    },
+    {
+      "name": "Amount",
+      "value": "total"
+    }
+  ],
+  "SalesOrder": [
+    {
+      "name": "Order#",
+      "value": "orderno",
+      "css": {
+        "width": " 20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Customer",
+      "value": "customername",
+      "css": {
+        "width": " 20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Date",
+      "value": "estimatedate",
+      "css": {
+        "width": " 20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Expiry",
+      "value": "expirydate",
+      "css": {
+        "width": " 20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Status",
+      "value": "status",
+      "css": {
+        "width": " 20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "total",
+      "css": {
+        "width": " 20%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "SalesInvoiceList": [
+    {
+      "name": "Invoice#",
+      "value": "invoiceno",
+      "css": {
+        "width": " 20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Reference",
+      "value": "reference",
+      "css": {
+        "width": " 20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Customer",
+      "value": "customername",
+      "css": {
+        "width": " 20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Date",
+      "value": "estimate_date",
+      "css": {
+        "width": " 20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Status",
+      "value": "status",
+      "css": {
+        "width": " 20%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "total",
+      "css": {
+        "width": " 20%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "SalesInvoiceReportList": [
+    {
+      "name": "Invoice#",
+      "value": "invoiceno",
+      "css": {
+        "width": " 27%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Customer",
+      "value": "customername",
+      "css": {
+        "width": " 27%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Date",
+      "value": "estimateDate",
+      "css": {
+        "width": " 27%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "total",
+      "css": {
+        "width": " 27%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "OtherIncome": [
+    {
+      "name": "Date",
+      "value": "date",
+      "css": {
+        "width": " 25%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Reference",
+      "value": "ref",
+      "css": {
+        "width": " 25%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Description",
+      "value": "description",
+      "css": {
+        "width": " 25%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "amount",
+      "css": {
+        "width": " 25%",
+        "textAlign": "center"
+      }
+    }
+  ],
+  "PurchaseReturnDetails": [
+    {
+      "name": "Name",
+      "value": "name"
+    },
+    {
+      "name": "Purchase Quantity",
+      "value": "purchase_qty"
+    },
+    {
+      "name": "Purchase Rate",
+      "value": "purchase_unit_price"
+    },
+    {
+      "name": "Return Quantity",
+      "value": "purchaseReturnQty"
+    },
+    {
+      "name": "Return Amount",
+      "value": "purchaseReturnAmount"
+    }
+  ],
+  "SalesByCustomer": [
+    {
+      "name": "Customer Name",
+      "value": "customername",
+      "css": {
+        "width": " 25%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Invoice Count",
+      "value": "invoice_count",
+      "css": {
+        "width": " 25%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Total Sale",
+      "value": "total_sale",
+      "css": {
+        "width": " 25%",
+        "textAlign": "center"
+      }
+    },
+    {
+      "name": "Sale Without Tax",
+      "value": "sale_without_tax",
+      "css": {
+        "width": " 25%",
+        "textAlign": "center"
+      }
+    }
+  ]
+}

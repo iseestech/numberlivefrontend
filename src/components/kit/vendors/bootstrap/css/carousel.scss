@@ -1,0 +1,25 @@
+@use '../../../../../styles/variables.scss' as *;
+@use '../../../../../styles/_functions.scss' as *;
+/////////////////////////////////////////////////////////////////////////////////////////
+/* CAROUSEL */
+
+.carousel-indicators {
+  li {
+    opacity: 0.5;
+    &.active {
+      opacity: 1;
+    }
+  }
+}
+
+// dark theme
+[data-kit-theme='dark'] {
+  .carousel-indicators {
+    li {
+      &.active {
+        opacity: 1;
+        background-color: $primary;
+      }
+    }
+  }
+}

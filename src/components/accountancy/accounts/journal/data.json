@@ -1,0 +1,72 @@
+{
+    "tableData": [
+      {
+        "key": "1",
+        "date": "24/06/2020",
+        "refNo": "Damon",
+        "invoices_date": "24/06/2020",
+        "journal": "Damon",
+        "purchase-returns_name": "Damon",
+        "purchase-returns_date": "24/06/2020",
+        "vendor": "Adolfo",
+        "currency":"",
+        "amount":"1234567",
+        "notes": "demo",
+        "delivery_date":"27/8/2020",
+        "created_by":"demo",
+        "status": "Paid",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "2",
+        "date": "25/06/2020",
+        "refNo": "Damon",
+        "vendor": "Adolfo",
+        "invoices_date": "24/06/2020",
+        "purchase-returns_name": "Damon",
+        "purchase-returns_date": "24/06/2020",
+        "journal": "Damon",
+        "currency":"",
+        "amount":"1234567",
+        "notes": "demo",
+        "delivery_date":"28/8/2020",
+        "created_by":"demo",
+        "status": "Paid",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "3",
+        "date": "26/06/2020",
+        "refNo": "Damon",
+        "purchase-returns_name": "Damon",
+        "purchase-returns_date": "24/06/2020",
+        "vendor": "Adolfo",
+        "invoices_date": "24/06/2020",
+        "journal": "Damon",
+        "currency":"",
+        "amount":"1234567",
+        "notes": "demo",
+        "delivery_date":"29/8/2020",
+        "created_by":"demo",
+        "status": "Unpaid",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "4",
+        "date": "27/06/2020",
+        "refNo": "Damon",
+        "purchase-returns_name": "Damon",
+        "purchase-returns_date": "24/06/2020",
+        "vendor": "Adolfo",
+        "invoices_date": "24/06/2020",
+        "journal": "Damon",
+        "currency":"",
+        "amount":"1234567",
+        "notes": "demo",
+        "delivery_date":"29/8/2020",
+        "created_by":"demo",
+        "status": "Unpaid",
+        "actions":"Edit | Delete"
+      }
+    ]
+  }

@@ -1,0 +1,67 @@
+.subscription-plan {
+  margin-top: 30px;
+
+  .subscription-plan__content {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 0;
+    .plan__item {
+      border: 1px solid #ccc;
+      // padding: 30px 0px;
+    }
+
+    .plan__item.active {
+      // border: 1px solid #4b7cf3;
+      border: 1px solid #b24232;
+    }
+
+    ul {
+      list-style: none;
+      padding: 10px;
+      text-align: left;
+
+      li {
+        padding: 10px 0;
+
+        span {
+          margin-left: 10px;
+        }
+      }
+    }
+
+    .most__active--acc {
+      // background: #4b7cf3;
+      background: #b24232;
+      color: #fff;
+      font-weight: 700;
+      text-align: center;
+      position: relative;
+      // border: 1px solid #4b7cf3;
+      border: 1px solid #b24232;
+      top: -23px;
+      visibility: hidden;
+    }
+
+    .most__active--acc.active {
+      visibility: visible;
+    }
+  }
+
+  .payment__section {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 85%;
+
+    .item__section {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .item__section.payBtn {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+}
+

@@ -1,0 +1,33 @@
+import React from 'react'
+import { View, StyleSheet } from '@react-pdf/renderer'
+import InvoiceTableHeader from './InvoiceTableHeader'
+import InvoiceTableRow from './InvoiceTableRow'
+import InvoiceTableBlankSpace from './InvoiceTableBlankSpace'
+import InvoiceTableFooter from './InvoiceTableFooter'
+
+const tableRowsCount = 11
+
+const styles = StyleSheet.create({
+  tableContainer: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    marginTop: 24,
+    // borderWidth: 0,
+    borderBottomWidth: 0,
+    borderRightWidth: 0,
+    borderLeftWidth: 0,
+    borderTopWidth: 0,
+    borderColor: '#bff0fd',
+  },
+})
+
+const InvoiceItemsTable = ({ salesValue, tableData, flag }) => (
+  <View style={styles.tableContainer}>
+    <InvoiceTableHeader salesValue={salesValue} flag={flag} />
+    <InvoiceTableRow items={tableData || []} salesValue={salesValue} flag={flag} />
+    {/* <InvoiceTableBlankSpace rowsCount={tableRowsCount - invoice.items.length} /> */}
+    {/* <InvoiceTableBlankSpace rowsCount={1} /> */}
+  </View>
+)
+
+export default InvoiceItemsTable

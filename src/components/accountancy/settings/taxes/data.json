@@ -1,0 +1,48 @@
+{
+    "tableData": [
+      {
+        "id": "1",
+        "taxName": "Damon",
+        "currancySymbol": "Pune",
+        "position": "5516 Adolfo Green",
+        "email":"demo@gmail.com",
+        "taxRate":"1234567",
+        "note": "demo",
+        "created_by":"demo",
+        "actions":"Edit | Delete"
+      },
+      {
+        "id": "2",
+        "taxName": "Damon",
+        "currancySymbol": "Pune",
+        "position": "5516 Adolfo Green",
+        "email":"demo@gmail.com",
+        "taxRate":"1234567",
+        "note": "demo",
+        "created_by":"demo",
+        "actions":"Edit | Delete"
+      },
+      {
+        "id": "3",
+        "taxName": "Damon",
+        "currancySymbol": "Pune",
+        "position": "5516 Adolfo Green",
+        "email":"demo@gmail.com",
+        "taxRate":"1234567",
+        "note": "demo",
+        "created_by":"demo",
+        "actions":"Edit | Delete"
+      },
+      {
+        "id": "4",
+        "taxName": "Damon",
+        "currancySymbol": "Pune",
+        "position": "5516 Adolfo Green",
+        "email":"demo@gmail.com",
+        "taxRate":"1234567",
+        "note": "demo",
+        "created_by":"demo",
+        "actions":"Edit | Delete"
+      }
+    ]
+  }

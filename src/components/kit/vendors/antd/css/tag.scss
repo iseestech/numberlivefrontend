@@ -1,0 +1,14 @@
+// Import mixins
+////////@use '../../../../../mixins.scss' as *;
+@use '../../../../../styles/_variables.scss' as *;
+@use '../../../../../styles/_functions.scss' as *;
+////////////////////////////////////////////////////////////////////////////////////////////
+// DARK THEME STYLES
+[data-kit-theme='dark'] {
+  .ant-tag {
+    border-color: transparent;
+  }
+}
+
+
+

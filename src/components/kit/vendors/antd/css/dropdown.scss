@@ -1,0 +1,32 @@
+// // Import mixins
+// @use '../../../../mixins.scss' as *;
+// @use '../../../core/css/colors.scss' as *;
+@use "sass:color";
+@use '../../../../../styles/_variables.scss' as *;
+@use '../../../../../styles/_functions.scss' as *;
+.ant-dropdown {
+  color: $gray-6;
+}
+
+.ant-dropdown-menu-item-group-list {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////
+// DARK THEME STYLES
+[data-kit-theme='dark'] {
+  .ant-dropdown-menu-item-group-title {
+    color: color.adjust($dark-gray-3, $lightness: -8%) !important;
+  }
+  .ant-select-dropdown {
+    &-menu-item-selected {
+      color: $text;
+      background: color.adjust($gray-6, $lightness: 7%);
+    }
+  }
+}
+
+
+

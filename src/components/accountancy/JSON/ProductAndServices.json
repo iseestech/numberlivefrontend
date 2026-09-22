@@ -1,0 +1,184 @@
+{
+    "category": [
+        {
+            "title": "#",
+            "dataIndex": "key",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Category Id",
+            "dataIndex": "catId",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Category Name",
+            "dataIndex": "catName",
+            "key": "catName",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Display Name",
+            "dataIndex": "catDisplayName",
+            "key": "catDisplayName",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Group Id",
+            "dataIndex": "productGroupId",
+            "key": "productGroupId",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Group Name",
+            "dataIndex": "groupName",
+            "key": "groupName",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Discription",
+            "dataIndex": "discription",
+            "key": "discription",
+            "filter": "agTextColumnFilter"
+        }
+    ],
+    "groups": [
+        {
+            "title": "#",
+            "dataIndex": "key",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Group Id",
+            "dataIndex": "groupId",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Group Name",
+            "dataIndex": "groupName",
+            "key": "groupName",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Display Name",
+            "dataIndex": "groupDisplayName",
+            "key": "groupDisplayName",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Discription",
+            "dataIndex": "discription",
+            "key": "discription",
+            "filter": "agTextColumnFilter"
+        }
+    ],
+    "units": [
+        {
+            "title": "#",
+            "dataIndex": "key",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Unit Id",
+            "dataIndex": "unitId",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Unit Name",
+            "dataIndex": "unitName",
+            "key": "unitName",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Display Name",
+            "dataIndex": "unitDisplayName",
+            "key": "unitDisplayName",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Discription",
+            "dataIndex": "discription",
+            "key": "discription",
+            "filter": "agTextColumnFilter"
+        }
+    ],
+    "taxList": [
+        {
+            "title": "#",
+            "dataIndex": "key",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Tax Id",
+            "dataIndex": "id",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Tax Name",
+            "dataIndex": "tax_name",
+            "key": "tax_name",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Tax Rate",
+            "dataIndex": "rate",
+            "key": "rate",
+            "filter": "agTextColumnFilter"
+        }
+    ],
+    "productList": [
+        {
+            "title": "#",
+            "dataIndex": "key",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Group",
+            "dataIndex": "groupName",
+            "key": "groupName",
+            "filter": "agTextColumnFilter"
+
+        },
+        {
+            "title": "Category",
+            "dataIndex": "catName",
+            "key": "catName",
+            "filter": "agTextColumnFilter"
+
+        },
+        {
+            "title": "SKU",
+            "dataIndex": "product_code",
+            "key": "product_code",
+            "filter": "agTextColumnFilter"
+
+        },
+        {
+            "title": "Name",
+            "dataIndex": "name",
+            "filter": "agTextColumnFilter"
+
+        },
+        {
+            "title": "Cost",
+            "dataIndex": "purchase_unit_price",
+            "key": "purchase_unit_price",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Sale Price",
+            "dataIndex": "sale_unit_price",
+            "key": "sale_unit_price",
+            "filter": "agTextColumnFilter"
+        }
+        
+    ]
+}

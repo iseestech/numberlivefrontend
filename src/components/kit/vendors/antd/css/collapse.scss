@@ -1,0 +1,18 @@
+// Import mixins
+////////@use '../../../../../mixins.scss' as *;
+@use '../../../../../styles/_variables.scss' as *;
+@use '../../../../../styles/_functions.scss' as *;
+////////////////////////////////////////////////////////////////////////////////////////////
+// DARK THEME STYLES
+[data-kit-theme='dark'] {
+  .ant-collapse {
+    background: transparent;
+    &-header {
+      background: $dark-gray-6;
+      color: $dark-gray-1 !important;
+    }
+  }
+}
+
+
+

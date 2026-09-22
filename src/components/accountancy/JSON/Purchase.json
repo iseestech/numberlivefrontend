@@ -1,0 +1,148 @@
+{
+    "purchaseOrder": [
+        {
+            "title": "#",
+            "dataIndex": "key",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Purchase No#",
+            "dataIndex": "purchase_order_no",
+            "key": "purchase_order_no",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Reference",
+            "dataIndex": "reference",
+            "key": "reference",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Vendor Name",
+            "dataIndex": "vendorName",
+            "key": "vendorName",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Order Date",
+            "dataIndex": "poDate",
+            "key": "poDate",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Amount",
+            "dataIndex": "amount",
+            "key": "amount",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Status",
+            "dataIndex": "accept_status",
+            "key": "accept_status",
+            "filter": "agTextColumnFilter"
+        }
+    ],
+    "purchaseInvoice": [
+        {
+            "title": "#",
+            "dataIndex": "key",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Bill No",
+            "dataIndex": "purchaseNumber",
+            "key": "purchaseNumber",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Invoice No",
+            "dataIndex": "invoice_no",
+            "key": "invoice_no",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Vendor Name",
+            "dataIndex": "vendor_name",
+            "key": "vendorName",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Purchase Date",
+            "dataIndex": "purchaseDate",
+            "key": "purchaseDate",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Amount",
+            "dataIndex": "total",
+            "key": "total",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Status",
+            "dataIndex": "payment_status",
+            "key": "payment_status",
+            "filter": "agTextColumnFilter"
+        }
+    ],
+    "purchaseReturn": [
+        {
+            "title": "#",
+            "dataIndex": "key",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Return#",
+            "dataIndex": "purchasereturnno",
+            "key": "purchasereturnno",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Date",
+            "dataIndex": "purchasereturndate",
+            "key": "purchasereturndate",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Purchase Value",
+            "dataIndex": "amount",
+            "key": "amount",
+            "filter": "agTextColumnFilter"
+        }
+    ],
+    "purchasePayment": [
+        {
+            "title": "#",
+            "dataIndex": "key",
+            "key": "key",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Pyament #",
+            "dataIndex": "paymentno",
+            "key": "paymentno",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Vendor Name",
+            "dataIndex": "vendorname",
+            "key": "vendorname",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Payment Date",
+            "dataIndex": "paymentdate",
+            "key": "paymentdate",
+            "filter": "agTextColumnFilter"
+        },
+        {
+            "title": "Amount Paid",
+            "dataIndex": "amountpaid",
+            "key": "amountpaid",
+            "filter": "agTextColumnFilter"
+        }
+    ]
+}

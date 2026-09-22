@@ -1,0 +1,10 @@
+// this is shared mixins file for all components from the app,
+// there you can easily add your own variables / imports or redefine
+// existing without touching default packages for future updates
+
+@use './kit/core/mixins.scss' as *; // import KIT mixins
+@use './cleanui/styles/mixins.scss' as *; // import CLEANUI mixins
+
+// $text: #000;
+// $success: green;
+

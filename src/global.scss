@@ -1,0 +1,425 @@
+// Import variables first
+
+@use 'bootstrap/dist/css/bootstrap.min.css';
+@use 'react-perfect-scrollbar/dist/css/styles.css';
+// @use 'c3/c3.min.css';
+// @use '~react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+@use './components/kit/core/style' as *;
+// Clean UI KIT styles
+@use './components/cleanui/styles/style' as *; // Clean UI styles
+@use './components/kit/vendors/antd/style' as *;
+@use './components/kit/vendors/bootstrap/style' as *;
+@use './components/kit/vendors/perfect-scrollbar/style' as *;
+@use './components/kit/vendors/nprogress/style' as *;
+@use './components/kit/vendors/chartist/style' as *;;
+@use './components/kit/vendors/chartist-tooltip-plugin/style' as *;
+@use './components/kit/vendors/jvectormap/style' as *;
+@use './components/kit/vendors/react-sortable-tree/style' as *;
+@use './components/kit/vendors/react-draft-wysiwyg/style' as *;
+
+
+
+.ant-notification {
+  z-index: 9999 !important;
+}
+
+// .createForm {
+.ant-table-tbody .ant-table-cell {
+  padding: 8px !important;
+  min-height: 60px !important;
+  vertical-align: baseline;
+}
+
+// }
+
+.sales-progress {
+  canvas {
+    height: 300px !important;
+  }
+}
+
+// Collapsed left-menu flyout submenu (e.g. Contacts > Customer/Vendor/Employee).
+// antd renders this popup via a portal appended to <body>, so it falls
+// outside the Menu component's CSS module scope and was picking up no
+// styling at all — it looked like a stray, unstyled box overlapping the
+// page content instead of a proper floating menu.
+.ant-menu-submenu-popup {
+  z-index: 1050 !important;
+
+  .ant-menu {
+    border-radius: 8px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.16);
+    overflow: hidden;
+    padding: 4px 0;
+  }
+
+  .ant-menu-item {
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+}
+
+.sales-progress.cashFlow {
+  border-right: 1px solid #ccc !important;
+  margin: 10px 0 !important;
+  border-radius: 0 !important;
+
+  canvas {
+    height: 340px !important;
+  }
+}
+
+.custom-tooltip {
+  background-color: white !important;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+// New Design changes 17 Jun 2022 #AD
+
+.nav__icon {
+  position: relative !important;
+  top: 0 !important;
+  right: 0 !important;
+}
+
+[data-kit-theme='default'] .ant-layout-content {
+  background-color: #f7f7f7;
+}
+
+// tabel css
+#table__layout--css,
+#adv_payment_table {
+  .ant-table-container {
+    box-shadow: -1px 0 10px 2px #ccc;
+
+    table {
+      thead tr th {
+        // background-color: $white !important;
+        text-transform: uppercase !important;
+        font-size: 13px !important;
+        font-weight: bold;
+
+        &:first-child {
+          text-align: center;
+        }
+      }
+
+      tbody tr td {
+        padding: 10px !important;
+
+        &:first-child {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .deleteIcon {
+    color: #e65555;
+  }
+
+  .editIcon {
+    color: #0081ff;
+  }
+
+  .viewIcon {
+    color: #000;
+  }
+
+  .actionCol,
+  .srCol {
+    text-align: center;
+  }
+}
+
+.productDetailsHeader {
+  width: 25%;
+}
+
+#table__layout--css-v2 {
+  .ant-table-container {
+    box-shadow: -1px 0 10px 2px #ccc;
+  }
+
+  table {
+    thead {
+      display: none !important;
+    }
+
+    .ant-table-tbody .ant-table-cell {
+      padding: 15px 20px !important;
+    }
+  }
+
+  .deleteIcon {
+    color: #e65555;
+  }
+
+  .editIcon {
+    color: #0081ff;
+  }
+}
+
+.form__table--field {
+  .ant-table {
+    border: 1px solid #d5d5d5;
+
+    table {
+      thead tr th {
+        // background-color: $white !important;
+        text-transform: uppercase !important;
+        font-size: 13px !important;
+        font-weight: bold;
+        // background: #fffafa !important;
+        background: #f3f3f3 !important;
+        // border-top: 1px solid #D5D5D5;
+        border-bottom: 1px solid #d5d5d5;
+        border-radius: 3px 3px 0 0;
+        padding: 10px !important;
+
+        // &:first-child {
+        //   text-align: center;
+        // }
+      }
+
+      tbody tr td {
+        padding: 10px !important;
+
+        // &:first-child {
+        //   text-align: center;
+        // }
+      }
+    }
+
+    .ant-table-footer {
+      padding: 10px;
+      text-align: right;
+    }
+
+    .table__td {
+      vertical-align: top;
+    }
+  }
+}
+
+[data-kit-theme='default'] .form__content--css {
+  background: $white;
+}
+
+.form__layout--css {
+  .form__content--css {
+    padding: 15px 0;
+    box-shadow: -1px 0 10px 2px #ccc;
+
+    .form__body-content {
+      margin: 0;
+      padding: 15px;
+
+      .form__input--label {
+        margin: 0;
+        padding-bottom: 15px;
+
+        .ant-col.ant-form-item-label {
+          width: 30%;
+          text-align: left;
+          white-space: break-spaces;
+
+          label {
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    .total__section {
+      .total__section--con {
+        border: 1px dashed #b24232;
+        padding: 10px;
+        background: #f3f3f3;
+      }
+    }
+
+    .form__footer {
+      display: flex;
+      justify-content: right;
+      align-items: center;
+
+      .status__dropdown {
+        margin: 0;
+
+        label {
+          margin: 0;
+        }
+
+        .ant-select {
+          width: 120px;
+        }
+      }
+    }
+  }
+
+  .not--required--field {
+    .ant-form-item-label {
+      left: 10px;
+    }
+  }
+}
+
+.details_layout--page {
+  .details__page--content {
+    margin: 0;
+    background: $white;
+    box-shadow: -1px 0 10px 2px #ccc;
+    padding: 15px;
+
+    .product__info--value {
+      font-weight: 600;
+    }
+
+    .total__section {
+      .total__section--con {
+        border: 1px dashed #b24232;
+        padding: 10px;
+        background: #f3f3f3;
+      }
+    }
+
+    .details__table--field {
+      .ant-table {
+        border: 1px solid #d5d5d5;
+
+        table {
+          thead tr th {
+            // background-color: $white !important;
+            text-transform: uppercase !important;
+            font-size: 13px !important;
+            font-weight: bold;
+            // background: #fffafa !important;
+            background: #f3f3f3 !important;
+            // border-top: 1px solid #D5D5D5;
+            border-bottom: 1px solid #d5d5d5;
+            border-radius: 3px 3px 0 0;
+            padding: 10px !important;
+          }
+        }
+
+        .ant-table-footer {
+          padding: 10px;
+          text-align: right;
+        }
+
+        .product__details--header {
+          width: 30%;
+        }
+      }
+    }
+  }
+
+  .details__page--item {
+    strong {
+      display: inline-block;
+      width: 150px;
+    }
+  }
+}
+
+[data-kit-theme='default'] .history__section .ant-collapse-header {
+  background: $white;
+}
+
+.bottom__section {
+  box-shadow: -1px 0 10px 2px #ccc;
+}
+
+.productPropsModal {
+  .ant-modal-body {
+    padding-top: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .bottom__section {
+    box-shadow: none;
+    margin-top: 0 !important;
+  }
+}
+
+.bulletIcon {
+  border-left: 4px solid #b24232;
+  padding-left: 4px;
+}
+
+// [data-kit-theme="default"] .ant-table-tbody > tr.ant-table-row:hover > td {
+//   background: none !important;
+// }
+
+.ant-btn,
+.ant-table,
+.ant-select-selector {
+  border-radius: 3px !important;
+}
+
+.selectDropDownBtn {
+  background: none !important;
+  border: none !important;
+  margin: 0 auto !important;
+  display: flex !important;
+  text-decoration: underline !important;
+  color: #b24232 !important;
+  align-items: center !important;
+}
+
+[data-kit-theme='default'] .ant-form-item-label > label::after {
+  display: none !important;
+}
+
+.report__link--item {
+  color: #1a0dab !important;
+
+  a {
+    color: #1a0dab !important;
+    text-decoration: underline !important;
+    font-size: 14px !important;
+  }
+}
+
+.antd__tab--content {
+  // margin-top: 10px !important;
+  .ant-tabs-top-bar {
+    margin: 0 !important;
+  }
+
+  .ant-tabs-tab {
+    padding: 5px 10px !important;
+    margin-top: 10px !important;
+    margin-right: 0 !important;
+  }
+
+  .ant-tabs-tab-active.ant-tabs-tab {
+    background: #fff;
+    /* border-bottom: 1px solid; */
+    box-shadow: -1px 0 10px 2px #ccc;
+    /* padding: 5px; */
+  }
+}
+
+#report--details.details_layout--page {
+  #table__layout--css,
+  #adv_payment_table {
+    .ant-table-container {
+      box-shadow: none !important;
+      border: 1px solid #e1e1e1;
+    }
+  }
+}
+.hrefLink {
+  color: #1a0dab !important;
+  text-decoration: underline !important;
+}
+
+.agggrid--table__container {
+  height: 600px;
+  width: 100%;
+}
+

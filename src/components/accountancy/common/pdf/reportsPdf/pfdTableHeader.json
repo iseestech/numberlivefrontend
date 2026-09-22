@@ -1,0 +1,1043 @@
+{
+  "statementOfAccount": [
+    {
+      "name": "Date",
+      "value": "date",
+      "css": {
+        "width": "24%"
+      }
+    },
+    {
+      "name": "Type",
+      "value": "type",
+      "css": {
+        "width": "24%"
+      }
+    },
+    {
+      "name": "Credit",
+      "value": "Credit",
+      "css": {
+        "width": "24%"
+      },
+      "total": true
+    },
+    {
+      "name": "Debit",
+      "value": "Debit",
+      "css": {
+        "width": "24%"
+      },
+      "total": true
+    }
+  ],
+  "statementByDate": [
+    {
+      "name": "Date",
+      "value": "date",
+      "css": {
+        "width": "15%"
+      }
+    },
+    {
+      "name": "Transaction Id",
+      "value": "transaction_id",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Act Name",
+      "value": "act_name",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Type",
+      "value": "type",
+      "css": {
+        "width": "19%"
+      }
+    },
+    {
+      "name": "Credit",
+      "value": "Credit",
+      "css": {
+        "width": "13%"
+      },
+      "total": true
+    },
+    {
+      "name": "Debit",
+      "value": "Debit",
+      "css": {
+        "width": "13%"
+      },
+      "total": true
+    }
+  ],
+  "statementBySubPriNatureGroup": [
+    {
+      "name": "Act Name",
+      "value": "act_name",
+      "css": {
+        "width": "25%"
+      }
+    },
+    {
+      "name": "Date",
+      "value": "date",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Type",
+      "value": "type",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Credit",
+      "value": "Credit",
+      "css": {
+        "width": "15%"
+      },
+      "total": true
+    },
+    {
+      "name": "Debit",
+      "value": "Debit",
+      "css": {
+        "width": "15%"
+      },
+      "total": true
+    }
+  ],
+  "paymentsReceived": [
+    {
+      "name": "Date",
+      "value": "payment_date",
+      "css": {
+        "width": "15%"
+      }
+    },
+    {
+      "name": "Customer Name",
+      "value": "customer_name",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Payment No",
+      "value": "payment_no",
+      "css": {
+        "width": "15%"
+      }
+    },
+    {
+      "name": "Account Name",
+      "value": "act_name",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Payment Mode",
+      "value": "payment_mode",
+      "css": {
+        "width": "15%"
+      }
+    },
+    {
+      "name": "Received Amount",
+      "value": "amount_recieved",
+      "css": {
+        "width": "15%"
+      },
+      "total": true
+    }
+  ],
+  "debitNotes": [
+    {
+      "name": "Date",
+      "value": "pur_return_date",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name",
+      "css": {
+        "width": "25%"
+      }
+    },
+    {
+      "name": "Purchase Return No",
+      "value": "purchase_return_no",
+      "css": {
+        "width": "25%"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "amount",
+      "css": {
+        "width": "25%"
+      },
+      "total": true
+    }
+  ],
+  "creditNotes": [
+    {
+      "name": "Date",
+      "value": "sale_return_date",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Customer Name",
+      "value": "customer_name",
+      "css": {
+        "width": "25%"
+      }
+    },
+    {
+      "name": "Sale Return No",
+      "value": "sale_return_no",
+      "css": {
+        "width": "25%"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "amount",
+      "css": {
+        "width": "20%"
+      },
+      "total": true
+    }
+  ],
+  "vendorBalandSum": [
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name",
+      "css": {
+        "width": "22%"
+      }
+    },
+    {
+      "name": "Paid Amount",
+      "value": "paid_amt",
+      "css": {
+        "width": "22%"
+      },
+      "total": true
+    },
+    {
+      "name": "Total Purchase",
+      "value": "total_purchase",
+      "css": {
+        "width": "25%"
+      },
+      "total": true
+    },
+    {
+      "name": "Balance",
+      "value": "balance",
+      "css": {
+        "width": "25%"
+      },
+      "total": true
+    }
+  ],
+  "billsDetails": [
+    {
+      "name": "Invoice No",
+      "value": "invoice_no",
+      "css": {
+        "width": "22%"
+      }
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name",
+      "css": {
+        "width": "22%"
+      }
+    },
+    {
+      "name": "Payment Status",
+      "value": "payment_status",
+      "css": {
+        "width": "22%"
+      }
+    },
+    {
+      "name": "Bill Amount",
+      "value": "bill_amount",
+      "css": {
+        "width": "25%"
+      },
+      "total": true
+    },
+    {
+      "name": "Balance Amount",
+      "value": "balance_amount",
+      "css": {
+        "width": "25%"
+      },
+      "total": true
+    }
+  ],
+  "paymentMade": [
+    {
+      "name": "Date",
+      "value": "payment_date",
+      "css": {
+        "width": "18%"
+      }
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name",
+      "css": {
+        "width": "25%"
+      }
+    },
+    {
+      "name": "Payment No",
+      "value": "payment_no",
+      "css": {
+        "width": "18%"
+      }
+    },
+    {
+      "name": "Payment Mode",
+      "value": "payment_mode",
+      "css": {
+        "width": "18%"
+      }
+    },
+    {
+      "name": "Paid Amount",
+      "value": "amount_paid",
+      "css": {
+        "width": "18%"
+      },
+      "total": true
+    }
+  ],
+  "purchaseOrderDetails": [
+    {
+      "name": "Date",
+      "value": "poDate",
+      "css": {
+        "width": "18%"
+      }
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name",
+      "css": {
+        "width": "25%"
+      }
+    },
+    {
+      "name": "Purchase Order No",
+      "value": "purchase_order_no",
+      "css": {
+        "width": "18%"
+      }
+    },
+    {
+      "name": "Status",
+      "value": "accept_status",
+      "css": {
+        "width": "18%"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "amount",
+      "css": {
+        "width": "18%"
+      },
+      "total": true
+    }
+  ],
+  "vendorCreditDetails": [
+    {
+      "name": "Date",
+      "value": "pur_return_date",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name",
+      "css": {
+        "width": "30%"
+      }
+    },
+    {
+      "name": "Purchase Return No",
+      "value": "purchase_return_no",
+      "css": {
+        "width": "22%"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "amount",
+      "css": {
+        "width": "22%"
+      },
+      "total": true
+    }
+  ],
+  "payablesSummary": [
+    {
+      "name": "Date",
+      "value": "Purchase_Date",
+      "css": {
+        "width": "10%"
+      }
+    },
+    {
+      "name": "Invoice No",
+      "value": "invoice_no",
+      "css": {
+        "width": "13%"
+      }
+    },
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name",
+      "css": {
+        "width": "22%"
+      }
+    },
+    {
+      "name": "Payment Status",
+      "value": "payment_status",
+      "css": {
+        "width": "13%"
+      }
+    },
+    {
+      "name": "Balance Amount",
+      "value": "balance_amt",
+      "css": {
+        "width": "10%"
+      },
+      "total": true
+    },
+    {
+      "name": "Total Without Tax",
+      "value": "total_amt_without_tax",
+      "css": {
+        "width": "15%"
+      },
+      "total": true
+    },
+    {
+      "name": "Bill Amount",
+      "value": "bill_amt",
+      "css": {
+        "width": "12%"
+      },
+      "total": true
+    }
+  ],
+  "purchaseOrderByVendor": [
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name",
+      "css": {
+        "width": "35%"
+      }
+    },
+    {
+      "name": "Order Count",
+      "value": "order_count",
+      "css": {
+        "width": "30%"
+      }
+    },
+    {
+      "name": "Total Amount",
+      "value": "total_amount",
+      "css": {
+        "width": "30%"
+      },
+      "total": true
+    }
+  ],
+  "salesByCustomer": [
+    {
+      "name": "Customer Name",
+      "value": "customername",
+      "css": {
+        "width": "25%"
+      }
+    },
+    {
+      "name": "Invoice Count",
+      "value": "invoice_count",
+      "css": {
+        "width": "25%"
+      }
+    },
+    {
+      "name": "Total Sale",
+      "value": "total_sale",
+      "css": {
+        "width": "25%"
+      },
+      "total": true
+    },
+    {
+      "name": "Sale Without Tax",
+      "value": "sale_without_tax",
+      "css": {
+        "width": "25%"
+      },
+      "total": true
+    }
+  ],
+  "salesByItems": [
+    {
+      "name": "Product Name",
+      "value": "product_name",
+      "css": {
+        "width": "30%"
+      }
+    },
+    {
+      "name": "Sold Quantity",
+      "value": "sold_qty",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Average Price",
+      "value": "average_price",
+      "css": {
+        "width": "25%"
+      },
+      "total": true
+    },
+    {
+      "name": "Amount",
+      "value": "Amount",
+      "css": {
+        "width": "20%"
+      },
+      "total": true
+    }
+  ],
+  "SalesByCustomerDetails": [
+    {
+      "name": "Estimate Date",
+      "value": "estimate_date",
+      "css": {
+        "width": "35%"
+      }
+    },
+    {
+      "name": "Invoice No",
+      "value": "invoice_no",
+      "css": {
+        "width": "30%"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "total",
+      "css": {
+        "width": "30%"
+      },
+      "total": true
+    }
+  ],
+  "customerBalance": [
+    {
+      "name": "Customer Name",
+      "value": "customername",
+      "css": {
+        "width": "30%"
+      }
+    },
+    {
+      "name": "Received Amount",
+      "value": "received_amt",
+      "css": {
+        "width": "25%"
+      },
+      "total": true
+    },
+    {
+      "name": "Total Sale",
+      "value": "total_sale",
+      "css": {
+        "width": "25%"
+      },
+      "total": true
+    },
+    {
+      "name": "Balance",
+      "value": "balance",
+      "css": {
+        "width": "20%"
+      },
+      "total": true
+    }
+  ],
+  "cutomerBalDetails": [
+    {
+      "name": "Date",
+      "value": "estimate_date",
+      "css": {
+        "width": "12%"
+      }
+    },
+    {
+      "name": "Invoice No",
+      "value": "invoice_no",
+      "css": {
+        "width": "10%"
+      }
+    },
+    {
+      "name": "Invoice Due Amount",
+      "value": "invoice_due_amount",
+      "css": {
+        "width": "20%"
+      },
+      "total": true
+    },
+    {
+      "name": "Total Amt without Tax",
+      "value": "total_amt_without_tax",
+      "css": {
+        "width": "20%"
+      },
+      "total": true
+    },
+    {
+      "name": "Payment Status",
+      "value": "payment_status",
+      "css": {
+        "width": "13%"
+      }
+    },
+    {
+      "name": "Status",
+      "value": "status",
+      "css": {
+        "width": "10%"
+      }
+    },
+    {
+      "name": "Total",
+      "value": "total",
+      "css": {
+        "width": "10%"
+      },
+      "total": true
+    }
+  ],
+  "cutomerBalDetailsWRID": [
+    {
+      "name": "Date",
+      "value": "estimate_date",
+      "css": {
+        "width": "12%"
+      }
+    },
+    {
+      "name": "Invoice No",
+      "value": "invoice_no",
+      "css": {
+        "width": "10%"
+      }
+    },
+    {
+      "name": "Invoice Due Amount",
+      "value": "invoice_due_amount",
+      "css": {
+        "width": "20%"
+      },
+      "total": true
+    },
+    {
+      "name": "Total Amt without Tax",
+      "value": "total_amt_without_tax",
+      "css": {
+        "width": "20%"
+      },
+      "total": true
+    },
+    {
+      "name": "Payment Status",
+      "value": "payment_status",
+      "css": {
+        "width": "13%"
+      }
+    },
+    {
+      "name": "Status",
+      "value": "status",
+      "css": {
+        "width": "10%"
+      }
+    },
+    {
+      "name": "Total",
+      "value": "total",
+      "css": {
+        "width": "10%"
+      },
+      "total": true
+    }
+  ],
+  "recievableSummary": [
+    {
+      "name": "Date",
+      "value": "estimate_date",
+      "css": {
+        "width": "12%"
+      }
+    },
+    {
+      "name": "Invoice No",
+      "value": "invoice_no",
+      "css": {
+        "width": "10%"
+      }
+    },
+    {
+      "name": "Customer Name",
+      "value": "customername",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Payment Status",
+      "value": "payment_status",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Due Amount",
+      "value": "invoice_due_amount",
+      "css": {
+        "width": "13%"
+      },
+      "total": true
+    },
+    {
+      "name": "Total Without Tax",
+      "value": "total_amt_without_tax",
+      "css": {
+        "width": "10%"
+      },
+      "total": true
+    },
+    {
+      "name": "Total",
+      "value": "total",
+      "css": {
+        "width": "10%"
+      },
+      "total": true
+    }
+  ],
+  "purchaseByVendor": [
+    {
+      "name": "Vendor Name",
+      "value": "vendor_name",
+      "css": {
+        "width": "30%"
+      }
+    },
+    {
+      "name": "Invoice Count",
+      "value": "invoice_count",
+      "css": {
+        "width": "30%"
+      }
+    },
+    {
+      "name": "Total Purchase",
+      "value": "total_purchase",
+      "css": {
+        "width": "25%"
+      },
+      "total": true
+    },
+    {
+      "name": "Purchase Without Tax",
+      "value": "total_without_tax",
+      "css": {
+        "width": "25%"
+      },
+      "total": true
+    }
+  ],
+  "purchaseByVendorWRID": [
+    {
+      "name": "Purchase Date",
+      "value": "Purchase_Date",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Invoice No",
+      "value": "invoice_no",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Payment Status",
+      "value": "payment_status",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Due Amount",
+      "value": "invoice_due_amount",
+      "css": {
+        "width": "18%"
+      },
+      "total": true
+    },
+    {
+      "name": "Amount",
+      "value": "total",
+      "css": {
+        "width": "17%"
+      },
+      "total": true
+    }
+  ],
+  "purchaseByItem": [
+    {
+      "name": "Product Name",
+      "value": "product_name",
+      "css": {
+        "width": "35%"
+      }
+    },
+    {
+      "name": "Buy Quantity",
+      "value": "buy_qty",
+      "css": {
+        "width": "15%"
+      }
+    },
+    {
+      "name": "Average Price",
+      "value": "average_price",
+      "css": {
+        "width": "22%"
+      },
+      "total": true
+    },
+    {
+      "name": "Amount",
+      "value": "Amount",
+      "css": {
+        "width": "23%"
+      },
+      "total": true
+    }
+  ],
+  "expenseDetails": [
+    {
+      "name": "Date",
+      "value": "date",
+      "css": {
+        "width": "25%"
+      }
+    },
+    {
+      "name": "Expense No",
+      "value": "expense_no",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Payment Mode",
+      "value": "payment_mode",
+      "css": {
+        "width": "25%"
+      }
+    },
+    {
+      "name": "Amount",
+      "value": "total",
+      "css": {
+        "width": "25%"
+      },
+      "total": true
+    }
+  ],
+  "expenseByCategory": [
+    {
+      "name": "Expense Account",
+      "value": "expenses_act",
+      "css": {
+        "width": "50%"
+      }
+    },
+    {
+      "name": "Total Expense",
+      "value": "totalexpense",
+      "css": {
+        "width": "45%"
+      },
+      "total": true
+    }
+  ],
+  "reconciliationStatusM": [
+    {
+      "name": "Date",
+      "value": "date",
+      "css": {
+        "width": "15%"
+      }
+    },
+    {
+      "name": "Type",
+      "value": "type",
+      "css": {
+        "width": "17%"
+      }
+    },
+    {
+      "name": "Status",
+      "value": "status",
+      "css": {
+        "width": "17%"
+      }
+    },
+    {
+      "name": "Deposite",
+      "value": "deposits",
+      "css": {
+        "width": "17%"
+      },
+      "total": true
+    },
+    {
+      "name": "Withdrawals",
+      "value": "withdrawals",
+      "css": {
+        "width": "17%"
+      },
+      "total": true
+    },
+    {
+      "name": "Bank Date",
+      "value": "bank_date",
+      "css": {
+        "width": "17%"
+      }
+    }
+  ],
+  "reconciliationStatusUM": [
+    {
+      "name": "Date",
+      "value": "date",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Type",
+      "value": "type",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Status",
+      "value": "status",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Deposite",
+      "value": "deposits",
+      "css": {
+        "width": "20%"
+      },
+      "total": true
+    },
+    {
+      "name": "Withdrawals",
+      "value": "withdrawals",
+      "css": {
+        "width": "20%"
+      },
+      "total": true
+    }
+  ],
+  "cashFlowStatemen": [
+    {
+      "name": "Date",
+      "value": "date",
+      "css": {
+        "width": "20%"
+      }
+    },
+    {
+      "name": "Closing Value",
+      "value": "closingvalue",
+      "css": {
+        "width": "20%"
+      },
+      "total": true
+    },
+    {
+      "name": "Opening Value",
+      "value": "openingvalue",
+      "css": {
+        "width": "20%"
+      },
+      "total": true
+    },
+    {
+      "name": "In Flow",
+      "value": "InFlow",
+      "css": {
+        "width": "20%"
+      },
+      "total": true
+    },
+    {
+      "name": "Out Flow",
+      "value": "OutFlow",
+      "css": {
+        "width": "20%"
+      },
+      "total": true
+    }
+  ]
+}

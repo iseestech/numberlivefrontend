@@ -1,0 +1,44 @@
+body {
+  overflow-x: hidden;
+}
+
+#purchase_Date,
+#delivery_Date {
+  width: 100%;
+  .ant-picker {
+    width: 100%;
+  }
+}
+
+.customerModal.ant-modal,
+.createProductModal.ant-modal {
+  // height: 100vh;
+  width: 70vw !important;
+  margin: 0 auto;
+  top: 0;
+}
+// .customerModal .ant-modal-body {
+//   height: calc(100vh - 110px);
+// }
+
+.tableForm {
+  .ant-row.ant-form-item {
+    margin-bottom: 0;
+  }
+  // .errorRowClass {
+  //   background-color: rgb(184, 3, 3);
+  // }
+  .ant-form-item-control-input-content {
+    .ant-input-number {
+      width: 100% !important;
+    }
+  }
+}
+.createForm {
+  .ant-table-cell {
+    padding: 5px !important;
+    min-height: 56px !important;
+    vertical-align: baseline;
+  }
+}
+

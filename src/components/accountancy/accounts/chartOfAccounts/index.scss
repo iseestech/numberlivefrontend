@@ -1,0 +1,30 @@
+body {
+  overflow-x: hidden;
+}
+
+.chart-of-account {
+  width: 450px !important;
+  // top: 40px !important;
+
+  .ant-form-item {
+    margin-bottom: 5px;
+  }
+}
+
+.ant-form-vertical {
+  .chartOfAccField.ant-form-item {
+    .ant-form-item-label {
+      padding-bottom: 0 !important;
+    }
+    .ant-form-item-control {
+      display: flex;
+      .ant-form-item-control-input {
+        order: 2;
+      }
+      .ant-form-item-explain {
+        order: 3;
+      }
+    }
+  }
+}
+

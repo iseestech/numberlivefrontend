@@ -1,0 +1,10 @@
+body {
+  overflow-x: hidden;
+}
+.purchaseOrderList {
+  .ant-table-summary {
+    position: sticky !important;
+    bottom: 0 !important;
+  }
+}
+

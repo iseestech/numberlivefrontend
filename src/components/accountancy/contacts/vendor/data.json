@@ -1,0 +1,48 @@
+{
+    "tableData": [
+      {
+        "key": "1",
+        "name": "Damon",
+        "address": "Pune",
+        "position": "5516 Adolfo Green",
+        "email":"demo@gmail.com",
+        "phone":"1234567",
+        "note": "demo",
+        "created_by":"demo",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "2",
+        "name": "Damon",
+        "address": "Pune",
+        "position": "5516 Adolfo Green",
+        "email":"demo@gmail.com",
+        "phone":"1234567",
+        "note": "demo",
+        "created_by":"demo",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "3",
+        "name": "Damon",
+        "address": "Pune",
+        "position": "5516 Adolfo Green",
+        "email":"demo@gmail.com",
+        "phone":"1234567",
+        "note": "demo",
+        "created_by":"demo",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "4",
+        "name": "Damon",
+        "address": "Pune",
+        "position": "5516 Adolfo Green",
+        "email":"demo@gmail.com",
+        "phone":"1234567",
+        "note": "demo",
+        "created_by":"demo",
+        "actions":"Edit | Delete"
+      }
+    ]
+  }

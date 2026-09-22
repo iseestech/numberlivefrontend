@@ -1,0 +1,17 @@
+@use '../../../../styles/variables.scss' as *;
+@use '../../../../styles/_functions.scss' as *;
+//////////////////////////////////////////////////////////////////////////////////////////
+/* AUTH */
+
+
+.container {
+  padding: rem(50) rem(30);
+}
+
+.react-tel-input {
+  .react-tel-input .form-control {
+    width: 100% !important;
+    border-radius: 0 !important;
+    border: 1px solid #e4e9f0 !important;
+  }
+}

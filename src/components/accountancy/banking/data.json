@@ -1,0 +1,29 @@
+{
+    "tableData": [
+      {
+        "key": "1",
+        "name": "Damon",
+        "code": "Damon",
+        "total":"1234567",
+        "actions":"Edit | Delete"
+      },
+      {
+        "key": "2",
+        "name": "Damon",
+        "code": "Damon",
+        "total":"1234567"
+      },
+      {
+        "key": "3",
+        "name": "Damon",
+        "code": "Damon",
+        "total":"1234567"
+      },
+      {
+        "key": "4",
+        "name": "Damon",
+        "code": "Damon",
+        "total":"1234567"
+      }
+    ]
+  }

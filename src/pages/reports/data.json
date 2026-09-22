@@ -1,0 +1,222 @@
+{
+	"tableData": [
+		{
+			"name": "Business Overview",
+			"children": [
+				{
+					"name": "Profit and Loss",
+					"url": "accounts/profit-and-loss",
+					"completed": true
+				},
+				{
+					"name": "Horizontal Profit and Loss",
+					"url": "accounts/profit-and-loss/horizontal",
+					"completed": true
+				},
+				{
+					"name": "Cash Flow Statement",
+					"url": "Cash Flow Statement",
+					"completed": true
+				},
+				{
+					"name": "Balance Sheet",
+					"url": "accounts/balance-sheets",
+					"completed": true
+				},
+				{
+					"name": "Horizontal Balance Sheet",
+					"url": "accounts/balance-sheets/horizontal",
+					"completed": true
+				},
+				{
+					"name": "Statement By Date",
+					"url": "Statement By Date",
+					"completed": true
+				},
+				{
+					"name": "Statement of Account",
+					"url": "Statement of Account",
+					"completed": true
+				},
+				{
+					"name": "Statement By Subgroup",
+					"url": "Statement By Subgroup",
+					"completed": true
+				},
+				{
+					"name": "Statement By Primarygroup",
+					"url": "Statement By Primarygroup",
+					"completed": true
+				},
+				{
+					"name": "Statement By Nature_Of_Account",
+					"url": "Statement By Nature_Of_Account",
+					"completed": true
+				}
+			]
+		},
+		{
+			"name": "Payables",
+			"children": [
+				{
+					"name": "Vendor Balance",
+					"url": "Vendor Balance",
+					"completed": true
+				},
+				{
+					"name": "Vendor Balance Summary",
+					"url": "Vendor Balance Summary",
+					"completed": true
+				},
+				{
+					"name": "Bills Details",
+					"url": "Bills Details",
+					"completed": true
+				},
+				{
+					"name": "Vendor Credit Details",
+					"url": "Vendor Credit Details",
+					"completed": true
+				},
+				{
+					"name": "Payment Made",
+					"url": "Payment Made",
+					"completed": true
+				},
+				{
+					"name": "Purchase Order Details",
+					"url": "Purchase Order Details",
+					"completed": true
+				},
+				{
+					"name": "Purchase Order By Vendor",
+					"url": "Purchase Order By Vendor",
+					"completed": true
+				},
+				{
+					"name": "Payables Summary",
+					"url": "Payables Summary",
+					"completed": true
+				}
+			]
+		},
+		{
+			"name": "Sales",
+			"children": [
+				{
+					"name": "Sales By Customer",
+					"url": "Sales By Customer",
+					"completed": true
+				},
+				{
+					"name": "Sales By Item",
+					"url": "Sales By Item",
+					"completed": true
+				},
+				{
+					"name": "Inventory",
+					"url": "Inventory",
+					"completed": true
+				},
+				{
+					"name": "Datewise Inventory",
+					"url": "Datewise Inventory",
+					"completed": true
+				}
+			]
+		},
+		{
+			"name": "Receivable",
+			"children": [
+				{
+					"name": "Customer Balance",
+					"url": "Customer Balance",
+					"completed": true
+				},
+				{
+					"name": "Sales Invoice Details",
+					"url": "Sales Invoice Details",
+					"completed": true
+				},
+				{
+					"name": "Sales Order Details",
+					"url": "Sales Order Details",
+					"completed": true
+				},
+				{
+					"name": "Sales Quote Details",
+					"url": "Sales Quote Details",
+					"completed": true
+				},
+				{
+					"name": "Receivable Summary",
+					"url": "Receivable Summary",
+					"completed": true
+				}
+			]
+		},
+		{
+			"name": "Purchase and Expenses",
+			"children": [
+				{
+					"name": "Purchase by Vendor",
+					"url": "Purchase By Vendor",
+					"completed": true
+				},
+				{
+					"name": "Purchase by Item",
+					"url": "Purchase By Item",
+					"completed": true
+				},
+				{
+					"name": "Expense Details",
+					"url": "Expense Details",
+					"completed": true
+				},
+				{
+					"name": "Expense by Category",
+					"url": "Expense by Category",
+					"completed": true
+				},
+				{
+					"name": "Expense by Customer",
+					"url": ""
+				},
+				{
+					"name": "Expense by Employee",
+					"url": ""
+				}
+			]
+		},
+		{
+			"name": "Payments Received",
+			"children": [
+				{
+					"name": "Payments Received",
+					"url": "Payments Received",
+					"completed": true
+				},
+				{
+					"name": "Debit Notes",
+					"url": "Debit Notes",
+					"completed": true
+				},
+				{
+					"name": "Credit Notes",
+					"url": "Credit Notes",
+					"completed": true
+				}
+			]
+		},
+		{
+			"name": "Banking",
+			"children": [
+				{
+					"name": "Reconciliation Status",
+					"url": "reconciliation",
+					"completed": true
+				}
+			]
+		}
+	]
+}
